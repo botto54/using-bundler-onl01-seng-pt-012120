@@ -8,10 +8,8 @@ gem "awesome_print", :git => 'git@github.com:awesome-print/awesome_print.git'
 # 'https://github.com/awesome-print/awesome_print.git'
 # error states --->  git@github\.com:awesome\-print\/awesome_print\.git
 
-group :development do
-  gem "pry"
-end
+gem "pry", group: :development
 
-group :test | 'test' do
+group :test do
 gem "rspec"
 end
